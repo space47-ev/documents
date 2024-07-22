@@ -1,4 +1,4 @@
-name: Build LaTeX document
+name: satzung.tex to PDF
 on: 
   push:
     paths:
