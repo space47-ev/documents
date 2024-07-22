@@ -19,7 +19,7 @@ jobs:
           name: PDF
           path: beitragsordnung.pdf
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: gerneated PDF from TEX
           branch: main
